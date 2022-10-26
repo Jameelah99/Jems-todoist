@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import React, {useState} from 'react'; 
 import './App.css';
+import { TodoDetails } from './pages/todo-details/TodoDetails';
+import Todoist from './pages/todoist/Todoist';
+import {Routes, Route} from "react-router-dom"
+import { ContactUs } from './components/ContactUs';
+
 
 function App() {
+const [todos, setTodos] = useState([]);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Routes>
+      <Route path='/' element={<Todoist todos ={todos} settodos={setTodos}/>} />
+      <Route path=':todo_id' element={<TodoDetails todos={todos}/>} />
+      <Route path='contact' element={<ContactUs/>} /> 
+    </Routes>
+    </>
   );
 }
 

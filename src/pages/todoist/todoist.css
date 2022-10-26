@@ -1,0 +1,162 @@
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #066acd;
+}
+
+.title{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    color: #0d75ec;
+}
+
+.header-links-container{
+    text-align: center;
+    width: 100%;
+}
+
+.header-links{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #066acd;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding:15px;
+}
+
+.container{
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    min-height: 500px;
+    transform: translate(-50%,-50%);
+}
+
+input{
+    width: 70%;
+    height: 45px;
+    padding: 15px 20px;
+    margin-left: 50px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+.add-btn{
+    text-align: center;
+    background-color: #0d75ec;
+    border: none;
+    padding: 28px 50px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 19px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.edit-btn{
+    text-align: center;
+    display: none;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 28px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+#tasks{
+    width: 90%;
+    position: relative;
+    padding: 15px 25px;
+    margin-left: 30px;
+    display:block;
+    font-size: 20px;
+}
+
+#tasks li{
+    background-color: #d1d3d4;
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    padding: 5px 10px; 
+    overflow: hidden;
+}
+
+.view-more-icon{
+    position: absolute;
+    right:160px;
+    cursor: pointer;
+    top: -35%;
+    padding: 5px 5px;
+    font-size: 33px;
+}
+
+.view-more-icon:hover{
+    background-color: darkorchid;
+}
+
+.complete-status-icon{
+    position: absolute;
+    right:110px;
+    cursor: pointer;
+    top:-20%;
+    padding: 13px 10px;
+    font-size: 20px;
+}
+
+.complete-status-icon:hover{
+    background-color: green;
+}
+
+.edit-icon{
+    position: absolute;
+    right:65px;
+    cursor: pointer;
+    top: -40%;
+    padding: 10px 5px;
+    font-size: 25px ;
+}
+
+.edit-icon:hover{
+    background-color: #0d75ec;
+}
+
+.close{
+    position:absolute;
+    right: 20px;
+    cursor: pointer;
+    top: -25%;
+    padding: 10px 10px;
+    font-size: 27px;
+}
+
+.close:hover{
+    background-color: red;
+}
