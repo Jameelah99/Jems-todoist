@@ -1,7 +1,7 @@
 import React from 'react'
-import './todoist.css';   //double quote can be used too
-import { TodoListContainer } from '../../components/TodoListContainer';
-import TodoistHeader from '../../components/TodoistHeader';
+import '../todoist/todoist.css';   //double quote can be used too
+import { TodoListContainer } from '../../components/todoist-layout/TodoListContainer';
+import TodoistHeader from '../../components/layouts/TodoistHeader';
 
 
 const Todoist = ({todos, settodos}) => {

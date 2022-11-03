@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import TodoistHeader from "../../components/TodoistHeader"
+import TodoistHeader from "../../components/layouts/TodoistHeader"
 import "./todo-details.module.css"
 
 export const TodoDetails = ({todos}) => {

@@ -1,8 +1,8 @@
 import React from 'react'
-import { SpanButton } from './SpanButton'
-import TodoInput from './TodoInput'
-import H2 from './H2'
-import HeaderLinks from './HeaderLinks'
+import { SpanButton } from '../forms/SpanButton'
+import TodoInput from '../forms/TodoInput'
+import H2 from '../typography/H2'
+import HeaderLinks from '../layouts/HeaderLinks'
 import { useState } from 'react'
 
 const TodoistHeader = ({hideForm, todos, settodos }) => {

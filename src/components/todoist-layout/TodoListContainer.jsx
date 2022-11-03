@@ -1,6 +1,6 @@
 import React from "react";
 
-import TodoListCard from "./TodoListCard";
+import TodoListCard from "../todoist-layout/TodoListCard";
 
 export const TodoListContainer = ({todos, settodos}) => {
   // console.log(todos)

@@ -1,5 +1,5 @@
 import React from 'react'
-import TodoActionButton from './TodoActionButton'
+import TodoActionButton from '../forms/TodoActionButton'
 import { Link } from 'react-router-dom'
 
 const TodoListCard = (props) => {
@@ -28,13 +28,13 @@ const TodoListCard = (props) => {
 
 
   // Edit Function
- const editMode = () =>{
-    const editBtn = todos.find((todo) =>{
-      if(todo._id === _id){
+//  const editMode = () =>{
+//     const editBtn = todos.find((todo) =>{
+//       if(todo._id === _id){
     
-      }
-    });
- }
+//       }
+//     });
+//  }
 
 
 //   const editMode = (_id) =>{

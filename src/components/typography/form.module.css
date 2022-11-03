@@ -1,0 +1,22 @@
+.inputBox{
+    width: 250px;
+    height: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.btn{
+    font-size: 15px;
+    width: 120px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.stack{
+    width: 290px;
+    height: 40px;
+    display: block;
+    margin-left: 50px;
+}
+
